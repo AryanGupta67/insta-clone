@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Instagram</div>
+    <input type="text" class="search" placeholder="Search" />
+    <div class="nav-icons">
+      <img src="icons/home.svg" alt="Home" />
+      <img src="icons/message.svg" alt="Messages" />
+      <img src="icons/explore.svg" alt="Explore" />
+      <img src="icons/heart.svg" alt="Notifications" />
+      <img src="icons/profile.jpg" class="profile" alt="Profile" />
+    </div>
+  </header>
+
+  <main>
+    <section class="left">
+      <div class="story-bar">
+        <!-- Story avatars -->
+        <img src="avatars/avatar1.jpg" alt="Story" />
+        <img src="avatars/avatar2.jpg" alt="Story" />
+        <img src="avatars/avatar3.jpg" alt="Story" />
+        <!-- Add more -->
+      </div>
+
+      <div class="post">
+        <div class="post-header">
+          <img src="avatars/avatar1.jpg" alt="User" />
+          <span>username</span>
+        </div>
+        <img src="posts/post1.jpg" class="post-img" alt="Post Image" />
+        <div class="post-actions">
+          <img src="icons/heart.svg" />
+          <img src="icons/comment.svg" />
+          <img src="icons/send.svg" />
+        </div>
+        <div class="likes">1,024 likes</div>
+        <div class="caption"><strong>username</strong> Awesome view! 🌅</div>
+      </div>
+    </section>
+
+    <aside class="right">
+      <div class="profile-card">
+        <img src="icons/profile.jpg" />
+        <div>
+          <strong>your_username</strong>
+          <p>Your Name</p>
+        </div>
+      </div>
+
+      <div class="suggestions">
+        <p>Suggestions For You</p>
+        <div class="suggestion">
+          <img src="avatars/avatar4.jpg" />
+          <span>friend_1</span>
+          <button>Follow</button>
+        </div>
+        <div class="suggestion">
+          <img src="avatars/avatar5.jpg" />
+          <span>friend_2</span>
+          <button>Follow</button>
+        </div>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>
